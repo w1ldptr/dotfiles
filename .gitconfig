@@ -1,0 +1,15 @@
+[push]
+	default = simple
+[merge]
+	conflictStyle = diff3
+[core]
+        abbrev = 12
+[pretty]
+        fixes = Fixes: %h (\"%s\")
+[notes "rewrite"]
+	rebase = true
+	amend = true
+[notes]
+	rewriteRef = refs/notes/commits
+[include]
+	path = ~/.gitconfig.local
