@@ -1,8 +1,0 @@
-[user]
-        name = Vlad Buslov
-        email = vladbu@mellanox.com
-[sendemail]
-        smtpencryption = off
-        smtpserver = labmailer
-        smtpserverport = 25
-
