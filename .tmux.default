@@ -1,0 +1,7 @@
+new -s default -n emacs
+neww -n main
+splitw -h -p 50 -t 2
+splitw -v -p 50 -t 2
+neww -n fullscreen
+selectw -t 2
+selectp -t 0
