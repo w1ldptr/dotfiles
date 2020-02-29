@@ -47,7 +47,7 @@ This function should only modify configuration layer settings."
      git
      ;; markdown
      multiple-cursors
-     org
+     (org :variables org-enable-reveal-js-support t)
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
