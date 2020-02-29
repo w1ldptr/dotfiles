@@ -483,7 +483,7 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
         message-citation-line-format "On %a %d %b %Y at %R, %f wrote:"
         message-citation-line-function 'message-insert-formatted-citation-line
         message-kill-buffer-on-exit t)
-  (setq mu4e-maildir "/home/vlad/email"
+  (setq mu4e-maildir "~/email"
         mu4e-get-mail-command "mbsync -a"
         mu4e-update-interval nil
         mu4e-compose-signature-auto-include nil
