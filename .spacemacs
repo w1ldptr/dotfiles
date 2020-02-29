@@ -60,6 +60,7 @@ This function should only modify configuration layer settings."
      (gtags :disabled-for python)
      semantic
      python
+     shell-scripts
      (mu4e :variables mu4e-account-alist t)
      (erc :variables
           erc-server-list
