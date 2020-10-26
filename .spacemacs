@@ -520,7 +520,7 @@ before packages are loaded."
                     (user-full-name . "Vlad Buslov")
                     ;; Receive
                     (mu4e-get-mail-command . "mbsync -c ~/.mbsyncrc nvidia")
-                    (mu4e-sent-messages-behavior . delete)
+                    (mu4e-sent-messages-behavior . sent)
                     (mu4e-sent-folder . "/Sent Items")
                     (mu4e-drafts-folder . "/Drafts")
                     (mu4e-trash-folder . "/Deleted Items")
