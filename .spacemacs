@@ -515,21 +515,21 @@ before packages are loaded."
   (require 'mu4e-context)
   (setq mu4e-contexts
         `(,(make-mu4e-context
-            :name "Mellanox"
-            :vars '((user-mail-address . "vladbu@mellanox.com")
+            :name "Nvidia"
+            :vars '((user-mail-address . "vladbu@nvidia.com")
                     (user-full-name . "Vlad Buslov")
                     ;; Receive
-                    (mu4e-get-mail-command . "mbsync -c ~/.mbsyncrc mellanox")
+                    (mu4e-get-mail-command . "mbsync -c ~/.mbsyncrc nvidia")
                     (mu4e-sent-messages-behavior . delete)
-                    (mu4e-sent-folder . "/mellanox/Sent Items")
-                    (mu4e-drafts-folder . "/mellanox/Drafts")
-                    (mu4e-trash-folder . "/mellanox/Deleted Items")
-                    (mu4e-refile-folder . "/mellanox/Archive")
+                    (mu4e-sent-folder . "/Sent Items")
+                    (mu4e-drafts-folder . "/Drafts")
+                    (mu4e-trash-folder . "/Deleted Items")
+                    (mu4e-refile-folder . "/Archive")
                     ;; Send
-                    (smtpmail-default-smtp-server . "smtp.office365.com")
-                    (smtpmail-local-domain . "mellanox.com")
-                    (smtpmail-smtp-server . "smtp.office365.com")
-                    (smtpmail-starttls-credentials . '(("smtp.office365.com" 587 nil nil)))
+                    (smtpmail-default-smtp-server . "mail.nvidia.com")
+                    (smtpmail-local-domain . "nvidia.com")
+                    (smtpmail-smtp-server . "mail.nvidia.com")
+                    (smtpmail-starttls-credentials . '(("mail.nvidia.com" 587 nil nil)))
                     (smtpmail-smtp-service . 587)
                     ;; Other
                     (starttls-use-gnutls . t)
