@@ -57,7 +57,7 @@ This function should only modify configuration layer settings."
      javascript
 
      c-c++
-     (gtags :disabled-for python emacs-lisp)
+     (gtags :enabled-for c-c++)
      semantic
      python
      shell-scripts
