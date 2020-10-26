@@ -483,8 +483,8 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
         message-citation-line-format "On %a %d %b %Y at %R, %f wrote:"
         message-citation-line-function 'message-insert-formatted-citation-line
         message-kill-buffer-on-exit t)
-  (setq mu4e-maildir "~/email"
-        mu4e-get-mail-command "mbsync -a"
+  (setq mu4e-get-mail-command "mbsync -a"
+        mu4e-compose-dont-reply-to-self t
         mu4e-update-interval nil
         mu4e-compose-signature-auto-include nil
         mu4e-view-show-images t
@@ -539,6 +539,7 @@ before packages are loaded."
                     (user-full-name . "Vlad Buslov")
                     ;; Receive
                     (mu4e-get-mail-command . "mbsync personal")
+                    (mu4e-sent-messages-behavior . sent)
                     (mu4e-sent-folder . "/personal/Sent")
                     (mu4e-drafts-folder . "/personal/Drafts")
                     (mu4e-trash-folder . "/personal/Trash")
