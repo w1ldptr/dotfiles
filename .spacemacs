@@ -546,9 +546,9 @@ before packages are loaded."
                     (mu4e-trash-folder . "/personal/Trash")
                     (mu4e-refile-folder . "/personal/Archive")
                     ;; Send
-                    (smtpmail-smtp-server . "mail.buslov.dev")
+                    (smtpmail-smtp-server . "smtp.fastmail.com")
                     (smtpmail-stream-type . tls)
-                    (smtpmail-starttls-credentials . '(("mail.buslov.dev" 465 nil nil)))
+                    ;; (smtpmail-starttls-credentials . '(("mail.buslov.dev" 465 nil nil)))
                     (smtpmail-smtp-service . 465)
                     ;; Other
                     (starttls-use-gnutls . t)

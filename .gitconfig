@@ -13,3 +13,5 @@
 	rewriteRef = refs/notes/commits
 [include]
 	path = ~/.gitconfig.local
+[pull]
+	rebase = true
