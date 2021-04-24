@@ -489,7 +489,8 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
         mu4e-update-interval nil
         mu4e-compose-signature-auto-include nil
         mu4e-view-show-images t
-        mu4e-view-show-addresses t)
+        mu4e-view-show-addresses t
+        mu4e-change-filenames-when-moving t)
   ;; Workaround for mu 1.0 bug
   ;; (setq mml-enable-flowed nil)
   )
@@ -548,7 +549,6 @@ before packages are loaded."
                     ;; Send
                     (smtpmail-smtp-server . "smtp.fastmail.com")
                     (smtpmail-stream-type . tls)
-                    ;; (smtpmail-starttls-credentials . '(("mail.buslov.dev" 465 nil nil)))
                     (smtpmail-smtp-service . 465)
                     ;; Other
                     (starttls-use-gnutls . t)
