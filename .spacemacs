@@ -61,6 +61,7 @@ This function should only modify configuration layer settings."
      semantic
      python
      shell-scripts
+     latex
      (mu4e :variables mu4e-account-alist t)
      (erc :variables
           erc-server-list
