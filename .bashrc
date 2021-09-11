@@ -10,7 +10,6 @@ export LC_ALL=en_US.UTF-8
 export EDITOR='emacs -nw -q'
 export TZ='/usr/share/zoneinfo/Europe/Kiev'
 export GTAGSLIBPATH=$HOME/.gtags/
-export TERM="screen-256color"
 export HISTCONTROL=ignoreboth:erasedups
 
 # Control-S
@@ -18,7 +17,7 @@ export HISTCONTROL=ignoreboth:erasedups
 
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
-alias emacs-tc='TERM=xterm-24bits emacs -nw'
+alias emacs-tc='TERM=xterm-direct emacs -nw'
 alias ef='emacs -nw -q'
 
 # check the window size after each command and, if necessary,
