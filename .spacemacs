@@ -55,10 +55,11 @@ This function should only modify configuration layer settings."
      syntax-checking
      version-control
      javascript
+     lsp
      unicode-fonts
 
      c-c++
-     (gtags :enabled-for c-c++)
+     ;; (gtags :enabled-for c-c++)
      semantic
      python
      shell-scripts
