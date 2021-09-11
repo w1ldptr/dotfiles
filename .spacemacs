@@ -55,6 +55,7 @@ This function should only modify configuration layer settings."
      syntax-checking
      version-control
      javascript
+     unicode-fonts
 
      c-c++
      (gtags :enabled-for c-c++)
