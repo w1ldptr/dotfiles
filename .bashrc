@@ -8,7 +8,7 @@ export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export EDITOR='emacs -nw -q'
-export TZ='/usr/share/zoneinfo/Europe/Kiev'
+TZ='Europe/Zurich'; export TZ
 export GTAGSLIBPATH=$HOME/.gtags/
 export HISTCONTROL=ignoreboth:erasedups
 
