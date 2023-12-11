@@ -569,6 +569,8 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
   (setq-default
    tab-width 4
    indent-tabs-mode nil)
+  (setq spacemacs-theme-comment-italic t)
+
   (remove-hook 'erc-text-matched-hook 'erc-global-notify)
   (add-hook 'c-mode-common-hook
             (lambda ()
@@ -620,6 +622,8 @@ configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
   (global-set-key (kbd "M-s o") 'helm-occur)
+  (add-to-list 'spacemacs-indent-sensitive-modes 'c-mode)
+  (add-to-list 'spacemacs-indent-sensitive-modes 'c++-mode)
 
   (require 'mu4e)
   (add-to-list 'mu4e-view-actions '("patch apply" . mu4e-action-git-apply-patch) t)
