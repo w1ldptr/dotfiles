@@ -278,7 +278,7 @@ It should only modify the values of Spacemacs settings."
    ;; a non-negative integer (pixel size), or a floating-point (point size).
    ;; Point size is recommended, because it's device independent. (default 10.0)
    dotspacemacs-default-font '("Iosevka Term SS04"
-                               :size 26)
+                               :size 14)
 
    ;; The leader key (default "SPC")
    dotspacemacs-leader-key "SPC"
