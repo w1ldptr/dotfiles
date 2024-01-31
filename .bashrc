@@ -17,8 +17,6 @@ export HISTCONTROL=ignoreboth:erasedups
 
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
-alias emacs-tc='TERM=xterm-direct emacs -nw'
-alias ef='emacs -nw -q'
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
