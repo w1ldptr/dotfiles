@@ -16,3 +16,4 @@ PATH=$HOME/.cargo/bin:$HOME/local/bin:$HOME/bin:$PATH
 
 export PATH
 unset USERNAME
+. "$HOME/.cargo/env"
