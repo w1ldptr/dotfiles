@@ -62,6 +62,7 @@ This function should only modify configuration layer settings."
      javascript
      c-c++
      ;; (gtags :enabled-for c-c++)
+     rust
      python
      (python :variables python-formatter 'yapf)
      shell-scripts
