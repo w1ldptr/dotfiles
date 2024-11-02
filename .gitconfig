@@ -15,3 +15,5 @@
 	path = ~/.gitconfig.local
 [pull]
 	rebase = true
+[rerere]
+	enabled = true
