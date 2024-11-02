@@ -17,3 +17,5 @@
 	rebase = true
 [rerere]
 	enabled = true
+[diff]
+	algorithm = histogram
