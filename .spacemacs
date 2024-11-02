@@ -621,8 +621,6 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
         mu4e-view-show-addresses t
         mu4e-change-filenames-when-moving t)
   (setq lsp-ui-doc-delay 3)
-  ;; Workaround for mu 1.0 bug
-  ;; (setq mml-enable-flowed nil)
   )
 
 
