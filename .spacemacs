@@ -623,6 +623,7 @@ before packages are loaded."
   (global-set-key (kbd "M-s o") 'helm-occur)
   (add-to-list 'spacemacs-indent-sensitive-modes 'c-mode)
   (add-to-list 'spacemacs-indent-sensitive-modes 'c++-mode)
+  (setq lsp-clients-clangd-args '("--header-insertion=never"))
 
   (setq-default
    c-default-style "linux-tabs-only"
