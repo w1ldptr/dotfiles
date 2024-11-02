@@ -1,0 +1,31 @@
+[window]
+decorations = "Full"
+startup_mode = "Fullscreen"
+
+[font]
+size = 12
+
+[font.bold]
+family = "Iosevka Term SS04"
+style = "Bold"
+
+[font.bold_italic]
+family = "Iosevka Term SS04"
+style = "Bold Italic"
+
+[font.italic]
+family = "Iosevka Term SS04"
+style = "Italic"
+
+[font.normal]
+family = "Iosevka Term SS04"
+style = "Regular"
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+bindings = [
+	{ key = "n", mods = "Control|Shift", action = "CreateNewWindow" },
+	{ key = "F11", action = "ToggleFullscreen" },
+]
