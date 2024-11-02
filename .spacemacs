@@ -63,6 +63,7 @@ This function should only modify configuration layer settings."
      c-c++
      ;; (gtags :enabled-for c-c++)
      python
+     (python :variables python-formatter 'yapf)
      shell-scripts
      (mu4e :variables mu4e-account-alist t)
      (erc :variables
